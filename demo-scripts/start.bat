@@ -1,0 +1,9 @@
+@echo off
+echo Checking Node & npm...
+node -v
+npm -v
+echo Installing packages...
+npm install
+echo Starting server on http://localhost:3000 ...
+npm start
+pause
